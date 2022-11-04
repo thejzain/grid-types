@@ -1,0 +1,12 @@
+.card{
+    background-color: gray;
+    border: 1px black solid;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .basic-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
