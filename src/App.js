@@ -1,24 +1,28 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import './base.css'
+import './base.css';
+import AnimatedGrid from "./animated-grid";
+import Basicgrid from "./basicgrid";
+import PhotoGrid from "./photo-grid";
 
 function App() {
   return (
-    <div className='photo-grid'>
-      <div className='card-2x' id='one'>1</div>
-      <div className='card' id='two'>2</div>
-      <div className='card' id='three'>3</div>
-      <div className='card' id='four'>4</div>
-      <div className='card' id='five'>5</div>
-      <div className='card-tall' id='six'>6</div>
-      <div className='card' id='seven'>7</div>
-      <div className='card' id='eight'>8</div>
-      <div className='card' id='nine'>9</div>
-      <div className='card-wide' id='ten'>10</div>
-      <div className='card' id='eleven'>11</div>
-      <div className='card' id='twelve'>12</div>
+    <div>
+      <div>
+        <h2>Animated Grid refresh page</h2>
+        <AnimatedGrid />
+      </div><br /><br />
+      <div>
+        <h2>Basic one</h2>
+        <Basicgrid />
+      </div>
+      <div>
+        <h2>Grid with photo (hd)</h2>
+        <PhotoGrid />
+      </div>
     </div>
-  );
+
+  )
 }
 
 export default App;

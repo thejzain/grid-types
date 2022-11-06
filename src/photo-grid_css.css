@@ -1,0 +1,84 @@
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+@media screen and (min-width: 600px) {
+  .pcard-wide {
+    grid-column: span 2 /auto;
+  }
+
+  .pcard-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .pcard-2x {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+  }
+}
+
+.pcard-wide:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+.pcard-tall:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+.pcard-2x:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+}
+
+#one {
+  background-image: url('https://images.pexels.com/photos/6827381/pexels-photo-6827381.jpeg');
+}
+
+#two {
+  background-image: url('https://images.pexels.com/photos/13350289/pexels-photo-13350289.jpeg');
+}
+
+#three {
+  background-image: url('https://images.pexels.com/photos/13563689/pexels-photo-13563689.jpeg');
+}
+
+#four {
+  background-image: url('https://images.pexels.com/photos/7478159/pexels-photo-7478159.jpeg');
+}
+
+#five {
+  background-image: url('https://images.pexels.com/photos/13918722/pexels-photo-13918722.jpeg');
+}
+
+#six {
+  background-image: url('https://images.pexels.com/photos/258447/pexels-photo-258447.jpeg');
+}
+
+#seven {
+  background-image: url('https://images.pexels.com/photos/965879/pexels-photo-965879.jpeg');
+}
+
+#eight {
+  background-image: url('https://images.pexels.com/photos/14303822/pexels-photo-14303822.jpeg');
+}
+
+#nine {
+  background-image: url('https://images.pexels.com/photos/14288303/pexels-photo-14288303.jpeg');
+}
+
+#ten {
+  background-image: url('https://images.pexels.com/photos/14289616/pexels-photo-14289616.jpeg');
+}
+
+#eleven {
+  background-image: url('https://images.pexels.com/photos/14287334/pexels-photo-14287334.jpeg');
+}
+
+#twelve {
+  background-image: url('https://images.pexels.com/photos/14285419/pexels-photo-14285419.jpeg');
+}
